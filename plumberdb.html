@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="zod.js"></script>
+    <title>Document</title>
+</head>
+<body style=" background-color: rgb(255, 255, 255);"><br><br>
+    <h2 class="signup" style="text-align: center; font-size: 50px;">New Registration<br>As Service Provider</h2><br>
+    <div id="login301">
+    <form action="http://localhost/project2/plumberdb.php" style="color: white; font-family:Georgia; font-size: 30px;" method="post">
+    First Name  <br><input style="font-size: x-large; border-radius: 5px; text-align: center; border: 3px solid black;margin-bottom: 16px;" type="text" name="Firstname" minlength="2"></br>
+    Last Name    <br><input style="font-size: x-large; border-radius: 5px; text-align: center; border: 3px solid black;margin-bottom: 16px;" type="text"name="Lastname" minlength="2"></br>
+    Mobile No<br><input style="font-size: x-large; border-radius: 5px; text-align: center; border: 3px solid black;margin-bottom: 16px;" type="text"name="MobileNo" minlength="10" maxlength="10"></br>
+    E-mail  <br><input style="font-size: x-large; border-radius: 5px; text-align: center; border: 3px solid black;margin-bottom: 16px;" type="email"name="Email" minlength="12"></br>
+    Password  <br><input id="2000" style="font-size: x-large; border-radius: 5px; text-align: center; border: 3px solid black;" type="password"name="Password"></br>
+    <input type="checkbox" onclick="my2()">Show Password<br><br>
+    Repeat Password  <br><input id="3000" style="font-size: x-large; border-radius: 5px; text-align: center; border: 3px solid black;" type="password"name="RepeatPassword"></br>
+    <input type="checkbox" onclick="my3()">Show Password<br><br>
+    Date of Birth  <br><input style="font-size: x-large; border-radius: 5px; text-align: center; border: 3px solid black;" type="date"name="DOB"></br><br>
+    
+    Location District<br>
+    <select name="location" id="logas" style="height: 30px; width: 200px; font-size: 18px; text-align: center; border: 3px solid black;">
+        <option value="anugul">anugul</option>
+        <option value="boudha">boudh</option>
+        <option value="balangir">balangir</option>
+        <option value="bargarh">bargarh</option>
+        <option value="balasore">balasore</option>
+        <option value="bhadrak">bhadrak</option>
+        <option value="cuttack">cuttack</option>
+        <option value="debagarh">debagarh</option>
+        <option value="dhenkanal">dhenkanal</option>
+        <option value="ganjam">ganjam</option>
+        <option value="gajapati">gajapati</option>
+        <option value="jharsuguda">jharsuguda</option>
+        <option value="jajpur">jajpur</option>
+        <option value="jagatsinghpur">jagatsinghpur</option>
+        <option value="khorda">khorda</option>
+        <option value="kendujhar">kendujhar</option>
+        <option value="kalahandi">kalahandi</option>
+        <option value="kandhamala">kandhamala</option>
+        <option value="koraput">koraput</option>
+        <option value="kendrapara">kendrapara</option>
+        <option value="malkangiri">malkangiri</option>
+        <option value="mayurbhanja">mayurbhanja</option>
+        <option value="nabarangapur">nabarangapur</option>
+        <option value="nuapada">nuapada</option>
+        <option value="nayagarh">nayagarh</option>
+        <option value="puri">puri</option>
+        <option value="rayagada">rayagada</option>
+        <option value="sambalpur">sambalpur</option>
+        <option value="subarnapur">subarnapur</option>
+        <option value="sundaragada">sundaragada</option>
+    </select>    
+    <br><br>
+    <button style="text-decoration: unset; color: white; background-color:black;
+    border: cyan;padding: 7px 30px;font-size: large; font-size: x-large;" >submit</button>
+    </form><br>
+    <h1 id="odissainfo">This Website Now only Providing their Services in Odissa.</h1>
+    <br>
+    </div>
+</body>
+</html>

@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#navbar
+{
+    display:flex;
+    align-items: center;
+    background-color:rgba(0,0,0,0.5) ;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#logo
+{
+    margin: 5px 5px;
+}
+#logo img
+{
+    margin: 2px ;
+    height: 75px;
+
+}
+#navbar ul
+{
+    display: flex;
+}
+#navbar ul li
+{
+    list-style: none;
+    font-size: 21px;
+}
+#navbar ul li a
+{
+    display: block;
+    padding: 7px 20px;
+    color: white;
+    border-radius: black;
+    text-decoration: none;
+    margin: auto;
+}
+#navbar ul li a:hover 
+{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+#item
+{
+    background-color:rgba(255, 255, 255, 0.5); border-radius: 20px;
+}
+#home
+{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px;
+    height: 400px;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+}
+#home::before
+{
+    content: "";
+    position: absolute;
+    background: url(images/background3.jpeg) no-repeat center center/cover;
+    height: 550px;
+    width: 100%;
+    z-index: -1;
+    opacity: 90%;
+    top: 0%;
+    left: 0%;
+}
+.h1
+{
+    font-size: 50px;
+    padding: 10px;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+#home h2
+{
+    color: white; font-size: 50px;font-family: 'Times New Roman', Times, serif;
+}
+#home p
+{
+    font-size: 25px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.primary
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    padding: 5px;
+    
+}
+.buton
+{
+    padding: 8px 15px;
+    border: 3px solid black;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-decoration: none;
+}
+.services12
+{
+    display: flex;
+}
+.box
+{
+    border: 2px solid black;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgba(192,192,192,0.3);
+    width: 33%;
+    height: 100;
+}
+.services12 .box img
+{
+    margin: auto;
+    display: block;
+    height: 150px;
+}
+.services12 .box h2
+{
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+.services12 .box p
+{
+    font-size: 20px; 
+}
+.primary
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#login301
+{
+    text-align: center;
+    font-size: 30px;
+    /* background-color: rgb(0, 0, 0,0.4); */
+    background: url(images/background3.jpeg) no-repeat center center/cover;
+    /* border-radius: 20px; */
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#login201 
+{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+}
+#login202
+{
+    background:url(images/background2022.png) no-repeat center center/cover;  
+}
+.login2022:hover
+{
+    background-color:rgba(0, 0, 0, 0.4) ;
+}
+.regas12
+{
+    display: flex;
+    text-align: center;
+}
+.regas
+{
+    border: 2px solid rgb(0, 0, 0);     
+    width: 50%;  
+    margin: 20px;
+    padding: 20px; 
+    border-radius: 20px;
+    background-color: rgba(0, 132, 255,0.4);
+}
+.regas img
+{
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+}
+.regas a ,.regas124 a
+{
+    margin: 5px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.regas125
+{
+    text-align: center;
+    display: flex;
+}
+.regas124 
+{
+    width: 33%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgba(0, 132, 255,0.4) ;
+}
+.regas124 img{
+    width: 200px;
+    height: 150px;
+}
+#aboutus 
+{
+    text-align: center;
+    justify-content: center;
+    
+}
+#aboutus img
+{
+    
+    width: 180px;
+    margin-left:35px;
+    margin-bottom: 25px;
+    vertical-align: middle;
+}
+
+/* SOCIAL MEDIA */
+
+.fa {
+    padding: 10px;
+    font-size: 200%;
+    width: 20px;
+    height: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram
+  {
+      background-color: rgb(255, 255, 255);
+      color: orangered;
+  }
+  .fa-youtube
+  {
+      background-color: red;
+      color: black;
+  }
+
+/* Plumberside */
+
+.all12  ,.all14
+{
+    text-align: center;
+    color: blue;
+}
+.all12  h1 ,.all14 h2
+{
+    font-size: 40px;
+    padding: 5px;  
+}
+.all12  h2  ,.all14 h3
+{
+    font-size: 30px;
+    padding: 2px;
+    color: blue;
+}
+.all12  p 
+{
+    font-size: 20px;
+    padding: 2px;
+    color: blue;
+    margin-bottom:15px;
+}
+.all13  
+{
+    display: block;
+    text-align: center;
+    
+}
+.all13  img
+{
+    width: 270px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid blue;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:900px)
+{
+    .services12
+    {
+        flex-direction: column;
+        
+    }    
+    #navbar
+    {
+        flex-direction: column;
+    }
+    #home
+    {
+        height: 280px;
+        padding: 5px 10px;
+    }
+    #home::before
+    {
+        height: 420px;
+    }
+    #home h1
+    {
+        font-size:22px;
+        text-align: center;
+    }
+    #home h2{
+        font-size: 32px;
+    }
+    #home p
+    {
+        font-size: 14px;
+        text-align: center;
+    }
+    #navbar ul li a 
+    {
+        font-size: 10px;
+        padding: 4px 7px;
+        padding-bottom: 15px;
+    }
+    #item
+    {
+        background-color:transparent; 
+        border-radius: 20px;
+    }
+    .box
+    {
+        width:auto;
+        margin: 20px;
+        margin-top: 0px;
+    }
+    #aboutus div
+    {
+        display: contents;
+    }
+    /* #aboutus div img
+    {
+       width: 300px;
+       height:auto;
+    }   */
+}
+#table{
+    border-collapse: collapse;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+
+}
+.tahe
+{
+    
+    font-size: 200px;
+    text-align: center;
+
+}
+#odissainfo
+{
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1500;
+    font-size: 30px;
+    color: rgb(0, 255, 255);
+    border-right: 4px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: type 5s steps(52) infinite alternate-reverse;
+}
+@keyframes type
+{
+    0%{width: 0ch;}
+    /* 50%{width: 32ch;} */
+    100%{width:52ch;}
+}
