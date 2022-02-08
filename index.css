@@ -225,9 +225,8 @@
 #aboutus img
 {
     
-    width: 180px;
-    margin-left:35px;
-    margin-bottom: 25px;
+   width: 180px;
+    padding:15px;
     vertical-align: middle;
 }
 
