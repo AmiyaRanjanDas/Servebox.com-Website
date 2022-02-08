@@ -33,7 +33,6 @@ $conn=mysqli_connect($servername,$username,$password,$dbname);
         if($count == 1)
         {  
             $pass=mysqli_fetch_assoc($res);
-            echo $pass['Firstname'];
             $_SESSION['username']=$pass['Firstname'];
             echo "<h1><center>You Login Sucessfully<center><h1>";      
             echo "<h3><a href='index.php'><center>go to home<center></a></h3>"; 
@@ -51,6 +50,8 @@ $conn=mysqli_connect($servername,$username,$password,$dbname);
         $count1 = mysqli_num_rows($res1);
         if($count1 == 1)
         {  
+            $pass=mysqli_fetch_assoc($res1);
+            $_SESSION['username']=$pass['Firstname'];
             echo "<h1><center>You Login Sucessfully<center><h1>";      
             echo "<h3><a href='index.php'><center>go to home<center></a></h3>"; 
         }  
@@ -67,6 +68,8 @@ $conn=mysqli_connect($servername,$username,$password,$dbname);
         $count2 = mysqli_num_rows($res2);
         if($count2 == 1)
         {  
+            $pass=mysqli_fetch_assoc($res2);
+            $_SESSION['username']=$pass['Firstname'];
             echo "<h1><center>You Login Sucessfully<center><h1>";      
             echo "<h3><a href='index.php'><center>go to home<center></a></h3>"; 
         }  
@@ -78,11 +81,13 @@ $conn=mysqli_connect($servername,$username,$password,$dbname);
     }    
     else if($n=="mechanics")
     {
-        $sql="select * from project1table4 where  Email='$Email' and Password= '$Password'";
-        $res= mysqli_query($conn,$sql);
-        $count = mysqli_num_rows($res);
-        if($count == 1)
+        $sql3="select * from project1table4 where  Email='$Email' and Password= '$Password'";
+        $res3= mysqli_query($conn,$sql3);
+        $count3 = mysqli_num_rows($res3);
+        if($count3 == 1)
         {  
+            $pass=mysqli_fetch_assoc($res3);
+            $_SESSION['username']=$pass['Firstname'];
             echo "<h1><center>You Login Sucessfully<center><h1>";      
             echo "<h3><a href='index.php'><center>go to home<center></a></h3>";   
         }  
