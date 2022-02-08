@@ -35,8 +35,8 @@ session_start()
         <p style="text-align: center;">Lorem, ipsum dor adipisicing elit. Ab debitis laborum aliquid vel dolore illum.</p>
         <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto eveniet, ducimus vitae officia beatae</p>          
     </section>
-    <div style="display:flex; background-color:rgba(0,0,0,0.2); padding:20px; text-allign:center">
-    <div style="width:90%">
+    <div style="display:flex; background-color:rgba(0,0,0,0.2); padding:20px; text-allign:center;justify-content: space-between;">
+    <div>
         <a style="text-align: center; padding:8px 26px; Font-size:18px; width:580px; background-color:red;
          color:white; font-weight:600; cursor:pointer; border:2px solid black ;font-family: Arial;text-decoration: none;"
          href="index.html" ># <?php echo $_SESSION['username']; ?></a>
